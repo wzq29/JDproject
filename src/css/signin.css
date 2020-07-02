@@ -1,0 +1,302 @@
+/* 顶部显示 */
+.topwrap{
+    width: 100%;
+    margin: 0 auto;
+}
+.top{
+    width: 990px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+/* 左侧logo */
+.left_logo{
+    width: 300px;
+    padding-top: 10px;
+}
+.left_logo a {
+    float: left;
+    padding-right: 20px;
+   
+}
+.left_logo b{
+    float: left;
+    line-height: 80px;
+    font-size: 22px;
+    color: #3B3B3B;
+}
+/* 右侧气泡 */
+.bubble{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.bubble a{
+    color: #3B3B3B;
+    font-size: 12px;
+}
+
+/* 注意信息 */
+.warningwrap{
+    width: 100%;
+    height: 40px;
+    background-color: #FFF8F0;
+}
+.warning{
+    width: 990px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #999999;
+    margin: auto;
+    text-align: center;
+}
+.warning span a{
+    color: black;
+}
+
+/* 主界面 */
+.mainwrap{
+    width: 100%;
+    height: 475px;
+    background: url("../imgs/5aa68632Nd7790d0c.png") no-repeat center;
+    background-color: #E93854;
+    
+}
+/* 内容区 */
+.main{
+    width: 990px;
+    margin: auto;
+    position: relative;
+}
+/* 登录窗口 */
+.content{
+    width: 346px;
+    height: 438px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+/* 登录窗口顶部注意信息 */
+.main_top{
+    background-color: #FFF8F0;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+/* 登陆方式选择 */
+.sel{
+    height: 56px;
+}
+.sel li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    border-bottom: solid 1px #dddddd;
+}
+.sel li:nth-child(1){
+    background: url('../imgs/line.gif') no-repeat right;
+}
+
+
+
+/* 二维码登录 */
+ .qrcode{
+    width: 346px;
+    display: none;
+
+ }
+/* 二维码显示 */
+.qr{
+    width: 147px;
+    height: 147px;
+    background-color: red;
+    margin: auto;
+    margin-top: 110px;
+}
+.qrcode p{
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    margin: 14px auto;
+}
+.qrcode p span{
+    color: red;
+}
+/* 下方优点展示 */
+.qrcode ul{
+    overflow: hidden;
+    margin: 0 70px;
+}
+.qrcode ul li{
+    float: left;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    width: 68px;
+}
+
+
+
+/* 账户登录 */
+.form{
+    width: 306px; 
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+/* 错误反馈信息 */
+.error{
+    width: 306px;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0;
+    font-size: 12px;
+  
+}
+.error_details{
+    background-color: #FFEBEB;
+    border:  solid 1px red;
+    color: red;
+    display: none;
+
+}
+
+
+/* 账号输入区域 */
+.account{
+    padding-bottom: 10ox;
+    text-align: center;
+    overflow: hidden;
+}
+/* 密码输入区域 */
+.password{
+    padding: 15px 0;
+    text-align: center;
+    overflow: hidden;
+}
+/* 账号输入区域小图标 */
+.account .icon{
+    font-size: 16px;
+    width: 36px;
+    
+}
+/* 密码输入区域小图标 */
+.password .icon{
+    font-size: 16px;
+    width: 36px;
+   
+}
+/* 图标设置 */
+.user,.lock{
+    display: block;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    background-color: #F4F4F4;
+    border: solid 1px #dddddd;
+}
+/* 文本输入框设置 */
+.form input{
+    width: 260px;
+    height: 38px;
+    float: left;
+    text-indent: 1em;
+    border: solid 1px #dddddd;
+    border-left: none;
+}
+/* 忘记密码 */
+.safe{
+    width: 304px;
+    text-align: end;
+}
+.safe a{
+    font-size: 12px;
+}
+/* 登录按钮 */
+.form button{
+    width: 304px;
+    height: 33px;
+    font-size: 20px;
+    color: white;
+    background-color: #E4393C;
+    border: none;
+    margin: 15px 0;
+}
+
+/* 下方登陆方式 */
+.platform ul{
+    width: 306px;
+    height: 50px;
+    display: block;
+    padding: 0px 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.platform ul li{
+    float: left;
+    padding: 0 15px;
+    line-height: 50px;
+}
+
+.platform ul li:nth-child(1){
+    background: url('../imgs/line.gif') no-repeat right; 
+}
+
+.platform ul li:nth-child(3){
+    float: right;
+   
+}
+.platform ul li a{
+    padding-left: 5px;
+}
+
+
+/* 底部版权区 */
+.bottomwrap{
+    width: 100%;
+}
+.bottom_nav{
+    width: 990px;
+    margin: auto;
+}
+.bottom_nav ul{
+    display: block;
+    width: 990px;
+    height: 18px;
+    margin: 15px 0;
+}
+.bottom_nav ul li{
+    float: left;
+    font-size: 12px;
+    padding: 0 20px;
+    background: url('../imgs/line.gif') no-repeat right;
+}
+.bottom_nav ul li a{
+    color: #666666;
+}
+.bottom_nav ul li:nth-child(11){
+    background: none;
+}
+.copy{
+    width: 990px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #999999;
+    
+}
+
+

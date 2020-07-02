@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "38005",
+      "name": "气泡",
+      "font_class": "quot",
+      "unicode": "f0042",
+      "unicode_decimal": 983106
+    },
+    {
+      "icon_id": "1676167",
+      "name": "qq",
+      "font_class": "qq1",
+      "unicode": "e509",
+      "unicode_decimal": 58633
+    },
+    {
+      "icon_id": "2115494",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "2380096",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "5947024",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "6209707",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "7505212",
+      "name": "定位",
+      "font_class": "test",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "7692487",
+      "name": "注意",
+      "font_class": "zhuyi",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "9523130",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "11179306",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "12037697",
+      "name": "向下",
+      "font_class": "arrow-down",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "15557827",
+      "name": "锁头",
+      "font_class": "changyongtubiao1-13",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
