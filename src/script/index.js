@@ -40,7 +40,7 @@ function hidden(){
     
 
 // banner轮播图
-
+//左侧
     var mySwiper = new Swiper ('.swiper1', {
         direction: 'horizontal', // 垂直切换选项
         loop: true, // 循环模式选项
@@ -64,8 +64,8 @@ function hidden(){
           this.click();
         };
     }
-
-    var mySwiper = new Swiper ('.swiper2', {
+//右侧
+    var mySwiper = new Swiper ('.swiper2',{
         direction: 'horizontal', // 垂直切换选项
         loop: true, // 循环模式选项
         autoplay: {
