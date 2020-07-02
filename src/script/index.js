@@ -12,8 +12,6 @@
     area.addEventListener("mouseleave",hidden);
     // list.addEventListener("mouseover",sty);
     // list.addEventListener("mouseout",def);
-
-
 function show(){
     area.style.display = "block";
     area.style.backgroundColor = "#fff"
@@ -25,7 +23,7 @@ function show(){
     f3.style.borderTop = "solid 1px #ddd";
     f4.style.borderTop = "solid 1px #ddd";
     f5.style.borderTop = "solid 1px #ddd";
-}
+  }
 function hidden(){
     area.style.display = "none";
     point.style.border = "none";
@@ -35,7 +33,6 @@ function hidden(){
     f4.style.borderTop = "none";
     f5.style.borderTop = "none";
 }
-
 }
     
 
@@ -55,31 +52,27 @@ function hidden(){
         },
         // 前进后退按钮
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.mySwiperBtn1',
+          prevEl: '.mySwiperBtna',
         },
-      })
+      });
       for(i=0;i<mySwiper.pagination.bullets.length;i++){
         mySwiper.pagination.bullets[i].onmouseover=function(){
           this.click();
-        };
-    }
+        }
+      };
 //右侧
-    var mySwiper = new Swiper ('.swiper2',{
+    var mySwiper2 = new Swiper ('.swiper2',{
         direction: 'horizontal', // 垂直切换选项
         loop: true, // 循环模式选项
         autoplay: {
-            delay: 5000,//5秒切换一次
+            delay: 4000,//4秒切换一次
           },
         // 前进后退按钮
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.mySwiperBtn2',
+          prevEl: '.mySwiperBtnb',
         },
-      })
-      for(i=0;i<mySwiper.pagination.bullets.length;i++){
-        mySwiper.pagination.bullets[i].onmouseover=function(){
-          this.click();
-        };
-    }
+      });
+
 

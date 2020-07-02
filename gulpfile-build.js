@@ -52,6 +52,19 @@ async function html(){
         },2000);
     })
 }
+async function css(){
+    return new Promise((resovle,reject)=>{
+        setTimeout(()=>{//延后执行这个任务
+            resovle();
+            src(['./rev/**/*.json','./src/css/*.css'])
+            .pipe(load.revCollector({
+                replaceReved: true //根据之前生成的json配置，替换原来路径为哈希路径
+            }))
+            .pipe(load.minifyCss())//压缩
+            .pipe(dest('./dist/css'))
+        },2000);
+    })
+}
 
 // 构建生成环境的代码
 task('build',async ()=>{
@@ -60,4 +73,5 @@ task('build',async ()=>{
     await script();
     await sass();
     await html();
+    await css();
 })
